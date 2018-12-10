@@ -1,0 +1,72 @@
+body{
+    background-image: url("img3.jpg");
+}
+.login-box{
+    background: black;
+    height:400px;
+    width:300px;
+    position: absolute;
+    top: 20%;
+    left:40%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.avt1{
+    width:100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left:100px;
+
+}
+.topic{
+    color:#fff;
+    text-align: center;
+    padding-top:60px;
+    font-family: 'Fjalla One';
+
+}
+.form p{
+    font-family: 'Varela Round';
+    color:#fff;
+    margin:0;
+    margin-top: 10px;
+}
+#submit{
+    margin-top: 10px;
+    display:block;
+    width:80%;
+    height:40px;
+    font-family: 'Fjalla One';
+    font-size:20px;
+    border-radius: 20px;
+}
+#submit:hover{
+    color:#fff;
+    background:gold;
+    cursor: pointer;
+}
+.form{
+    margin-left: 30px;
+}
+.login-box input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color:#fff;
+    outline:none;
+    height:40px;
+    width:80%;
+}
+.login-box a{
+    margin-top: 10px;
+    color:#fff;
+    display: block;
+    font-family: 'Varela Round';
+    font-size: 10px;
+}
+.login-box a:hover{
+    color:gold;
+    font-size:15px;
+    cursor: pointer;
+}
